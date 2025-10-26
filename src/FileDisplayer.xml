@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="labull.filedisplayer.FileDisplayer" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>File Displayer</name>
+    <description>Displays images and PDFs with zoom, rotate, and download controls. Office files and other file types can be downloaded.</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="file" type="file" required="true">
+                <caption>File</caption>
+                <description>Select the file to display</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
